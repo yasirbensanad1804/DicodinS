@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/colorText">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile"
+        android:layout_width="189dp"
+        android:layout_height="198dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/my_profile" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="About Me"
+        android:gravity="center"
+        android:layout_above="@id/profile"
+        android:textSize="30dp"
+        android:textColor="@color/putih"/>
+
+    <TextView
+        android:id="@+id/nama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/profile"
+        android:layout_marginStart="-3dp"
+        android:gravity="center"
+        android:text="yasir abdullah sanad"
+        android:textSize="20dp"
+        android:textColor="@color/putih"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nama"
+        android:gravity="center"
+        android:text="yasiridn1804@gmail.com"
+        android:textColor="@color/putih"/>
+
+
+</RelativeLayout>
